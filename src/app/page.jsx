@@ -5,12 +5,15 @@ import "../styles/globals.css";
 // components
 import Navbar from "@/components/Navbar/Navbar";
 import Header from "@/components/Header/Header";
+import Categories from "@/components/Categories/Categories";
+import Needs from "@/components/Needs/Needs";
 
 export default function Home() {
   return (
     <main className="">
-      <Navbar />
       <Header />
+      <Categories />
+      <Needs />
     </main>
   );
 }

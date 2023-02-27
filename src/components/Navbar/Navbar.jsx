@@ -14,25 +14,26 @@ const Navbar = () => {
     >
       <div className="flex md:flex-row flex-col justify-between">
         <p className="uppercase font-extrabold">
-          skills<span className="inline-block w-[4px] h-[4px] bg-[#8FB67B]"></span>
+          skills
+          <span className="inline-block w-[4px] h-[4px] bg-[#8FB67B]" />
         </p>
         <ul>
           <li>
             <a className="pr-4 text-[14px] font-medium relative" href="">
               Find Position
-              <div className={`absolute bottom-[1px] left-0 bg-[#8FB67B] h-[3px] w-[85%]`} />
+              <div className={`absolute bottom-[1px] left-0 bg-[#97c680] h-[3px] w-[85%]`} />
             </a>
             <a className="pr-3 text-[14px] font-medium relative" href="">
               Categories
-              {/* <div className={`absolute bottom-[1px] left-0 bg-[#8FB67B] h-[3px] w-[85%]`} /> */}
+              {/* <div className={`absolute bottom-[1px] left-0 bg-[#97c680] h-[3px] w-[85%]`} /> */}
             </a>
             <a className="pr-3 text-[14px] font-medium relative" href="">
               Skills
-              <div className={`absolute bottom-[1px] left-0 bg-[#8FB67B] h-[3px] w-[85%]`} />
+              <div className={`absolute bottom-[1px] left-0 bg-[#97c680] h-[3px] w-[85%]`} />
             </a>
             <a className="pr-3 text-[14px] font-medium  relative" href="">
               Customers
-              {/* <div className={`absolute bottom-[1px] left-0 bg-[#8FB67B] h-[3px] w-[85%]`} /> */}
+              {/* <div className={`absolute bottom-[1px] left-0 bg-[#97c680] h-[3px] w-[85%]`} /> */}
             </a>
           </li>
         </ul>
