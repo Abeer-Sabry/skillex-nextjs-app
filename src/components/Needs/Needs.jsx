@@ -1,5 +1,4 @@
 import style from "@/styles";
-import { icons } from "react-icons";
 import NeedsList from "./NeedsList";
 import { BiAward, BiBrain } from "react-icons/bi";
 import { GiElectric } from "react-icons/gi";
@@ -81,9 +80,9 @@ const Needs = () => {
             height="415"
             src="https://www.youtube.com/embed/aGd_Rrs-qNY"
             title="YouTube video player"
-            frameborder="0"
-            allow="autoplay; "
-            allowfullscreen
+            frameBorder="0"
+            allow="autoplay;"
+            allowFullScreen
           ></iframe>
         </div>
       </div>

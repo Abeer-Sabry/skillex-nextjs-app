@@ -52,3 +52,62 @@ export const categories = [
     time: "4 months",
   },
 ];
+
+export const customers = [
+  {
+    id: 1,
+    feedback:
+      "The explanations are clear, the teachers are responsible and friendly, and the homework is real practice",
+    imgUrl: "/customers_ava-02.webp",
+    name: "Rob Zuber",
+    job: "ceo",
+  },
+  {
+    id: 2,
+    feedback:
+      "I learned a lot of new things, I immediately apply my knowledge in my work, found myself a new client",
+    imgUrl: "/customers_ava-03.webp",
+    name: "Melanle Pickett",
+    job: "IT Manager",
+  },
+  {
+    id: 3,
+    feedback:
+      "I really like the speakers of the course and the quality of the lectures. There is always feedback",
+    imgUrl: "/customers_ava-01.webp",
+    name: "Regis Wilson",
+    job: "Engineer",
+  },
+  {
+    id: 4,
+    feedback:
+      "A new profession is a lot of vivid impressions. Today I was at the presentation of the regional business award",
+    imgUrl: "/customers_ava-04.webp",
+    name: "Emma Watson",
+    job: "cook",
+  },
+  {
+    id: 5,
+    feedback:
+      "The course shows all the stages of the work of an SMM marketer. And also excellent practice",
+    imgUrl: "/customers_ava-05.webp",
+    name: "jack Watson",
+    job: "cook",
+  },
+  {
+    id: 6,
+    feedback:
+      "On the course Data Analyst in Python everything is very interesting and informative, very detailed material",
+    imgUrl: "/customers_ava-06.webp",
+    name: "Chris Hemsworth",
+    job: "analyst",
+  },
+  {
+    id: 7,
+    feedback:
+      "For several months I studied one of the most popular programming languages on the course Java developer",
+    imgUrl: "/customers_ava-07.webp",
+    name: "Elizabeth Stone",
+    job: "Developer",
+  },
+];
