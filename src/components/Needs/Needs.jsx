@@ -6,7 +6,7 @@ import { GiElectric } from "react-icons/gi";
 const Needs = () => {
   return (
     <div className={`${style.xPaddings} my-[100px]`}>
-      <div className="flex items-center flex-col md:flex-row mb-[20px]">
+      <div className="flex items-center flex-col md:flex-row mb-[50px] ">
         <h3 className="text-[45px] font-semibold leading-[52px] mr-[200px]">
           Get the skills you <br /> need for a job that <br /> is in demand
           <span className="inline-block w-[4px] h-[4px] bg-[#8FB67B]" />
@@ -17,7 +17,7 @@ const Needs = () => {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between">
+      <div className="flex flex-col md:flex-row justify-between gap-8 items-center ">
         <div className="flex flex-col ">
           <NeedsList
             className="text-[#BF8D5C]"
@@ -57,17 +57,34 @@ const Needs = () => {
           />
         </div>
 
-        <div className="">
-          <div className="bg-[#97c680] flex">
-            <div className="flex items-center text-[]">
-              <span className="inline-block mr-[12px] ">10</span>
-              <span className="leading-[15px]">
+        <div className="relative flex-[10] flex justify-center">
+          <div className="bg-[#97c680] flex p-[25px] absolute top-[-60px]">
+            <div className="flex items-center border-r-2 border-[#1B1928] pr-[15px] mr-[15px] ">
+              <span className="inline-block mr-[12px] text-[40px]">10</span>
+              <span className="leading-[15px] text-[12px] uppercase font-semibold">
                 years
                 <br />
                 experience
               </span>
             </div>
+            <div className="flex items-center uppercase font-semibold">
+              <span className="inline-block mr-[12px] text-[40px]">250</span>
+              <span className="leading-[15px] text-[12px]">
+                Types Of
+                <br />
+                COURSES
+              </span>
+            </div>
           </div>
+          <iframe
+            width="80%"
+            height="415"
+            src="https://www.youtube.com/embed/aGd_Rrs-qNY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="autoplay; "
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
     </div>
